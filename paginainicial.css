@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins&family=Work+Sans:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #ccc0aa11;
+    
+}
+a{
+    text-decoration: none;
+    color: #000000
+}
+.circulo{
+    width: 2vw;
+    margin-top: 3vh;
+    margin-left: 3vh;
+}
+
+#div_header{
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.nome{
+    margin-top: 3.9vh;
+    margin-left: 0.5vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#div_principal_header{
+    display: flex;
+    justify-content: space-between;
+}
+
+#div_ano{
+    display: flex;
+    margin-top: 3.9vh;
+    margin-right: 5vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+  
+}
+
+.primeiro_ano{
+    margin-right: 1.5vw;
+    list-style-type: none;
+    outline: none;
+}
+
+.primeiro_ano:hover{
+    margin-right: 1.5vw;
+    color: #0601f7;
+    cursor: pointer;
+    
+}
+
+
+.segundo_ano{
+    margin-right: 1.5vw;
+    list-style-type: none;
+    outline: none;
+    
+}
+
+.segundo_ano:hover{
+    margin-right: 1.5vw;
+    color: #0601f7;
+    cursor: pointer;
+}
+
+.terceiro_ano:hover{
+    color: #0601f7;
+    cursor: pointer;
+ 
+}
+
+
+hr{
+    margin-right: 1vw;
+}
+
+.quadradinho{
+    width: 45vh;
+    box-shadow: 0px 5px 5px rgba(58, 58, 58, 0.432)
+}
+
+.container_quadradinho{
+    margin-top: 15vh;
+    margin-left: 25vw;
+    position: relative;
+    display: inline-block;
+}
+
+.nome_quadradinho{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    transform: translate(25%, 80%);
+    font-size: 3.5vh;
+}
+
+.textos{
+    position: absolute;
+    top: 28%;
+}
+
+#linha{
+    position: absolute;
+    border: 2px solid #0601f7;
+    width: 15%;
+    top: 65%;
+    left: 40%;
+    
+}
+
+.descricao{
+    transform: translate(25%, 600%);
+    font-size: 2.5vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.container_principal{
+    display: flex;
+}
+
+.sobremim{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20vw;
+}
+
+.sobremim_titulo{
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    margin-top: 5vw;
+    margin-right: 6vw;
+}
+
+.sobremim_descricao{
+    width: 100%;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-left: 5vw;
+    font-size: 1.1vw;
+    margin-top: 2vw;
+}
